@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    
+    margin: 50px;
+}
+ul{
+    
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: green;
+    
+    }
+    li{
+        font-size: 20px;
+        color: white;
+        margin: 2px 20px;
+        padding: 10px;
+        text-align: center;
+    }
+p{
+    width: 300px;
+    margin: 20px auto;
+    text-align: justify;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
